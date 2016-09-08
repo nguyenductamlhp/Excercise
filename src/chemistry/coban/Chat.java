@@ -14,10 +14,7 @@ public class Chat {
 	}
 	
 	public String getCongthuc() {
-		String re = "";
-		for (NguyenTo nguyenTo2 : NguyenTo) {
-			
-		}
+		return "";
 	}
 
 }
