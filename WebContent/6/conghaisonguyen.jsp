@@ -10,7 +10,7 @@
 <head>
 	<title>Toán 6 - Cộng 2 số nguyên</title>
 	<meta charset="utf-8">
-	<meta name="author" content="pixelhint.com">
+	<meta name="author" content="nguyenductamlhp.com">
 	<meta name="description" content="Crafty is a stunning HTML5/CSS3 multi-purpose template, well-coded, commented code and easy to customize"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="../css/reset.css">
@@ -24,10 +24,10 @@
 	<header>
 		<div class="wrapper">
 			<img src="../img/logo.png" alt="Crafty" class="logo">
-			<a href="#" class="menu_icon" id="menu_icon"></a>
+			<a href="index.jsp" class="menu_icon" id="menu_icon"></a>
 			<nav id="nav_menu">
 				<ul>
-					<li><a href="#">Trang chủ</a></li>
+					<li><a href="index.jsp">Trang chủ</a></li>
 					<li><a href="#">Bài viết</a></li>
 					<li><a href="#">Nghiên cứu</a></li>
 					<li><a href="#">Liên hệ</a></li>

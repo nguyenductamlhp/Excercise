@@ -5,8 +5,8 @@
 <head>
 	<title>Bài tập toán</title>
 	<meta charset="utf-8">
-	<meta name="author" content="pixelhint.com">
-	<meta name="description" content="Crafty is a stunning HTML5/CSS3 multi-purpose template, well-coded, commented code and easy to customize"/>
+	<meta name="author" content="nguyenductamlhp.com">
+	<meta name="description" content="nguyenductamlhp is a stunning HTML5/CSS3 multi-purpose template, well-coded, commented code and easy to customize"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main_responsive.css">
@@ -18,11 +18,11 @@
 
 	<header>
 		<div class="wrapper">
-			<img src="img/logo.png" alt="Crafty" class="logo">
-			<a href="#" class="menu_icon" id="menu_icon"></a>
+			<img src="img/logo.png" alt="nguyenductamlhp" class="logo">
+			<a href="index.jsp" class="menu_icon" id="menu_icon"></a>
 			<nav id="nav_menu">
 				<ul>
-					<li><a href="#">Trang chủ</a></li>
+					<li><a href="index.jsp">Trang chủ</a></li>
 					<li><a href="#">Bài viết</a></li>
 					<li><a href="#">Nghiên cứu</a></li>
 					<li><a href="#">Liên hệ</a></li>
@@ -42,22 +42,10 @@
 		<div class="wrapper">
 				<div class="feature">
 					<div class="ficon">
-						<img src="img/icon1.png" alt="">
+						<img src="img/icon3.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Toán lớp 6</h3>
-						<p>Toán là môn khoa học căn bản</p>
-						<a href="#">more details<span>→</span></a>
-					</div>
-				</div>
-				<div class="feature">
-					<div class="ficon">
-						<img src="img/icon2.png" alt="">
-					</div>
-					<div class="details_exp">
-						<h3>Toán lớp 7</h3>
-						<p>Giới thiệu bài tập lý.</p>
-						<a href="#">more details<span>→</span></a>
+						<a href="toan6.jsp"><h3>Toán lớp 6</h3><span>→</span></a>
 					</div>
 				</div>
 				<div class="feature">
@@ -65,19 +53,23 @@
 						<img src="img/icon3.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Toán lớp 8</h3>
-						<p>Giới thiệu bài tập lý.</p>
-						<a href="#">more details<span>→</span></a>
+						<a href="toan7.jsp"><h3>Toán lớp 7</h3><span>→</span></a>
 					</div>
 				</div>
 				<div class="feature">
 					<div class="ficon">
-						<img src="img/icon4.png" alt="">
+						<img src="img/icon3.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Toán lớp 7</h3>
-						<p>Giới thiệu bài tập sinh.</p>
-						<a href="#">more details<span>→</span></a>
+						<a href="toan8.jsp"><h3>Toán lớp 8</h3><span>→</span></a>
+					</div>
+				</div>
+				<div class="feature">
+					<div class="ficon">
+						<img src="img/icon3.png" alt="">
+					</div>
+					<div class="details_exp">
+						<a href="toan9.jsp"><h3>Toán lớp 9</h3><span>→</span></a>
 					</div>
 				</div>
 				
@@ -85,10 +77,9 @@
 
 	</section><!--  End Features  -->
 
-	
-		<footer>
-		<img src="img/logo_footer.png" alt="Crafty">
-		<p class="rights">Copyright © crafty - All rights reserved, Find more free templates at <a href="http://pixelhint.com">Pixelhint.com</a></p>
+	<footer>
+		<img src="img/logo_footer.png" alt="nguyenductamlhp">
+		<p class="rights"> <a href="https://nguyenductamlhp-nguyenductam.rhcloud.com">Copyright © nguyenductamlhp</a></p>
 	</footer><!--  End Footer  -->
 
 </body>

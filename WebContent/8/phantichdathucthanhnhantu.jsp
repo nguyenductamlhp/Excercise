@@ -24,7 +24,7 @@ String sE = "";
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<title>Toán 8 - Nhân đơn thức với đa thức</title>
+	<title>Toán 8 - Phân tích đa thức thành nhân tử </title>
 	<meta charset="utf-8">
 	<meta name="author" content="nguyenductamlhp.com">
 	<meta name="description" content="nguyenductamlhp is a stunning HTML5/CSS3 multi-purpose template, well-coded, commented code and easy to customize"/>
@@ -57,7 +57,7 @@ String sE = "";
 	</header><!--  End Header  -->
 
 	
-	<h5><a href="../toan8.jsp">Toán 8</a>===> Nhân đơn thức với đa thức</h5><br>
+	<h5><a href="../toan8.jsp">Toán 8</a>===> Phân tích đa thức thành nhân tử</h5><br>
 	
 <!-- 	Nhân đơn thức với đa thức -->
 	<h3>Bài 1: </h3><br>
@@ -71,38 +71,31 @@ String sE = "";
 			m = Math.round(Math.random() * 4) + 1;
 			B = Math.round(Math.random() * 4) - Math.round(Math.random() * 4);
 			C = Math.round(Math.random() * 4) - Math.round(Math.random() * 4);
-			if (A == 1) {
-				sA = "";
-			}
-			else if (A == -1) {
-				sA = "-";
-			}
-			else if (A != 0) {
-				sA = Long.toString(A);
-			}
-			if (m != 1) {
-				sM = Long.toString(m);
-			}
-			if (B == 1 || B == 0) {
+			
+			if (A*B == 0 || A*B == 1) {
 				sB = "";
 			}
-			else if (B == -1) {
+			else if (A*B == -1) {
 				sB = "-";
 			}
 			else {
-				sB = Long.toString(B);
+				sB = Long.toString(A*B);
 			}
-			if (C > 0) {
-				sC = "+" + Long.toString(C);
+			if (A*C == 1 || A*C == 0) {
+				sC = "+";
 			}
-			else if (C < 0) {
-				sC = Long.toString(C);
+			else if (A*C == -1) {
+				sC = "-";
+			}
+			else if (A*C > 1){
+				sC = "+" + Long.toString(A*C);
 			}
 			else {
-				sC = "+1";
+				sC = Long.toString(A*C);
 			}
-			%>
-			<%= sA%>x<sup><%= sM%></sup> (<%= sB%>x<%= sC%>)
+			
+		%>
+			<%= sB%>x<sup><%= m + 1%></sup> <%= sC%>x<sup><%=m%></sup>
 		</p>	
 	<%	
 	}
